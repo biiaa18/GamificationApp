@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\app.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\app.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\appEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\app">
+      <UniqueIdentifier>{AA12C48A-028A-3822-9AF3-F2F3DD86FCCC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\app\app.Build.cs">
+      <Filter>Source\app</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\app\app.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\app.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\appCharacter.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\appCharacter.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\appGameMode.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\appGameMode.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\appPlayerController.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\appPlayerController.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\appProjectile.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\appProjectile.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\TP_PickUpComponent.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\TP_PickUpComponent.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\app\TP_WeaponComponent.cpp">
+      <Filter>Source\app</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\app\TP_WeaponComponent.h">
+      <Filter>Source\app</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
